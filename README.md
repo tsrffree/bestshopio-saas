@@ -21,9 +21,20 @@ BestCheckout 可以复用底层店铺和平台服务，但其商家独立后台�
 
 原型保留一个 `index.html` 作为应用壳和 Hash 路由入口，但业务实现按页面模块收口，不把所有页面继续堆进入口文件。页面路由与 Next.js Pages Router 的映射见 [js/pages/README.md](js/pages/README.md)。
 
+## 当前页面
+
+入口是 `index.html`，业务按 Hash 路由打开：
+
+- 运营概览、待处理事项
+- 店铺、商家
+- 帮助中心
+- 域名、服务连接、套餐、发布管理
+- 账号、菜单、商品分类、归因
+- BestCheckout 运维
+
 ## 商家后台原型（另一套，独立链接）
 
-https://zjc66666-pm.github.io/bestshopio-prototypes/
+https://tsrffree.github.io/bestshopio-merchant/
 
 ## GitHub
 
